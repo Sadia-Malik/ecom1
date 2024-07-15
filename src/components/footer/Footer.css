@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap");
+.bg-footer {
+  background-color: #191918;
+}
+.form-colors{
+  color: #9b9c9e;
+}
+.footer-childs {
+  color: #9b9c9e;
+  list-style: none;
+}
+.footer-childs:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.hr {
+  border: 2px solid white;
+}
+.form-color {
+  background-color: #191918;
+  border: 1px solid #9b9c9e !important;
+  color: #9b9c9e !important;
+}
+.form-color:focus {
+  background-color: #191918;
+}
+.form-color :focus {
+  background-color: #191918;
+}
+.btn-footer {
+  background-color: #F7D89C!important;
+  color: #605555 !important;
+  border: none !important;
+}
+.btn-footer:focus {
+  box-shadow: 0px 0px 10px 0px #F7D89C !important;
+  border: none;
+}
+.footer-icons {
+  font-size: 1.3rem;
+  margin: 0px 6px;
+  color: #9b9c9e;
+}
+.footer-icons:hover {
+  color: #fff;
+}

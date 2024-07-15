@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+.bg-Tp {
+  background-color: #000;
+  font-family: "jost", sans-serif;
+}
+.heading-Tp {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.image-card {
+  height: 350px;
+  border-radius: 7px;
+}
+.card-bg {
+  border-radius: 7px;
+  cursor: pointer;
+}
+.card-bg:hover {
+  box-shadow: 0px 0px 30px 0px #eda620;
+}
+.btn-cards {
+  background-color: #eda620 !important;
+  color: #fff;
+  width: 100%;
+  border: none;
+}
+
+.stars > span {
+  font-size: 30px;
+  color: #deb15e;
+}
+.btn-cards:hover {
+  box-shadow: 0px 0px 10px 0px #eda620;
+}
+.trending-img {
+  height: 250px;
+}
+.spa-img {
+  width: 400px;
+}
+.tab-btns {
+  width: 130px;
+  cursor: pointer;
+}
+
+.detail-card {
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+}
+.detail-img {
+  border-radius: 10px;
+  height: 450px;
+  width: 600px;
+}
+@media (max-width: 576px) {
+  .detail-img {
+    height: 270px;
+    width: 280px;
+  }
+  .img-small {
+    height: 60px !important;
+    width: 60px !important;
+  }
+  .img-col{
+    display: flex !important;
+    flex-direction: row !important;
+    width: 70px;
+  }
+  .stars > span {
+    font-size: 20px;
+    color: #deb15e;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .detail-img {
+    height: 350px;
+    width: 350px;
+  }
+  .img-small {
+    height: 80px !important;
+    width: 80px !important;
+  }
+  .img-col{
+    display: flex !important;
+    flex-direction: row !important;
+    width: 80px;
+  }
+}
+.img-small {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.bg-detail-pg {
+  background-color: #222020;
+}
+.btn-cart {
+  width: 170px;
+  background-color: #eda620;
+  color: black;
+}
+.btn-inc {
+  background-color: #0d0d0d;
+  border: none;
+  width: 50px;
+  border-radius: 0;
+}
+.btn-inc:hover {
+  background-color: #eda620;
+}
+@media (max-width: 320px) {
+  /* .spa-img{
+    width: 90px;
+  } */
+  .heading-Tp {
+    font-size: 1.8rem;
+  }
+  .tab-btns {
+    font-size: 0.8rem;
+    width: 100px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 555px) {
+  /* .spa-img{
+    width: 100px;
+  } */
+  .heading-Tp {
+    font-size: 2rem;
+  }
+  .tab-btns {
+    font-size: 0.9rem;
+    width: 90px;
+    border: none !important;
+  }
+}
+@media (min-width: 556px) and (max-width: 992px) {
+  /* .spa-img{
+    width: 100px;
+  } */
+  .heading-Tp {
+    font-size: 2.2rem;
+  }
+  .tab-btns {
+    font-size: 1rem;
+    width: 100px;
+  }
+}
